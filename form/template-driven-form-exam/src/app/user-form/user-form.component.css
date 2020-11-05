@@ -1,0 +1,12 @@
+/* NgForm, NgModel, NgNdelGroup 디렉티브가 적용된 폼 컨트롤 요소에는 유효성 검증 상태 프로퍼티와 연동하여
+    ng-touched, ng-pristine, ng-invalid 등의 CSS 클래스가 자동 적용된다. */
+/* 그래서 touched가 true이면 폼 컨트롤 요소에 ng-touched 클래스가 자동 적용되고,
+    pristine이 true이면 폼 컨트롤 요소에 ng-pristine 클래스가 자동 적용된다. */
+
+.alert {
+  color: red;
+}
+
+input.ng-touched.ng-invalid {
+  background-color: #ff6666;
+}
